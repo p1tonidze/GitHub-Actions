@@ -1,4 +1,5 @@
-name: PR Workflow - ${{ github.actor }}
+name: CI
+run-name: PR Workflow ${{ github.actor }}
 
 on:
   pull_request:
